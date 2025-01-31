@@ -715,6 +715,7 @@
       <OmitDefaultLibName>true</OmitDefaultLibName>
       <DisableSpecificWarnings>4201;4748;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <LanguageStandard_C>stdc11</LanguageStandard_C>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
     </ClCompile>
     <Lib>
       <SubSystem>Native</SubSystem>
@@ -846,6 +847,7 @@
       <Optimization>MaxSpeed</Optimization>
       <DisableSpecificWarnings>4201;4603;4627;4986;4987;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <LanguageStandard_C>stdc11</LanguageStandard_C>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
     </ClCompile>
     <Lib>
       <SubSystem>Native</SubSystem>
